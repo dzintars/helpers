@@ -1,2 +1,2 @@
 # helpers
-Some helper functions
+Some helper functions for internal usage.
