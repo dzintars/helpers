@@ -19,7 +19,7 @@ type Services struct {
 
 func GetConfig(service string) *Service {
 
-	url := fmt.Sprintf("http://192.168.1.2:9000/read/%s", service)
+	url := fmt.Sprintf("http://192.168.1.4:9000/read/%s", service)
 
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
